@@ -1,0 +1,73 @@
+{
+  "$schema": "./schema-hint.txt",
+  "products": {
+    "ai-vtuber": {
+      "name": "AI Vtuber",
+      "repo": "Ikaros-521/AI-Vtuber",
+      "versions": [
+        {
+          "version": "v2.5.0",
+          "date": "2026-07-01",
+          "changes": {
+            "added": ["新增 Claude 4 模型支持", "新增本地语音唤醒词触发"],
+            "improved": ["TTS 合成延迟降低约 40%", "弹幕上下文窗口扩大到 32K"],
+            "fixed": ["修复多平台同时直播时偶发掉线问题"]
+          }
+        }
+      ]
+    },
+    "travel": {
+      "name": "洛曦云旅",
+      "repo": "Ikaros-521/LX_SkyRoam_Agent",
+      "versions": [
+        {
+          "version": "v1.2.0",
+          "date": "2026-06-20",
+          "changes": {
+            "added": ["新增多日行程自动拆分生成"],
+            "improved": ["景点推荐准确度提升"],
+            "fixed": []
+          }
+        }
+      ]
+    },
+    "bot": {
+      "name": "洛曦Bot",
+      "repo": "Ikaros-521/LX_Bot",
+      "versions": [
+        {
+          "version": "v3.0.1",
+          "date": "2026-06-10",
+          "changes": {
+            "added": ["新增点歌插件 v2"],
+            "improved": ["插件加载速度优化"],
+            "fixed": ["修复群消息偶发重复响应"]
+          }
+        }
+      ]
+    },
+    "captions": {
+      "name": "洛曦 Web 字幕打印机",
+      "repo": "Ikaros-521/captions_printer",
+      "versions": [
+        {
+          "version": "v1.4.0",
+          "date": "2026-05-28",
+          "changes": {
+            "added": ["新增 HTTP API 鉴权 token"],
+            "improved": ["打字动画流畅度提升"],
+            "fixed": ["修复长文本溢出问题"]
+          }
+        }
+      ]
+    },
+
+    "luoxi-ai":        { "name": "洛曦AI",            "versions": [] },
+    "digital-human":   { "name": "实时语音数字人",     "versions": [] },
+    "smart-clip":      { "name": "洛曦智剪",           "versions": [] },
+    "LiveBotX":        { "name": "直播间智能互动助手", "versions": [] },
+    "danmu-assistant": { "name": "直播弹幕助手",       "versions": [] },
+    "printer":         { "name": "直播辅助打印机",     "versions": [] },
+    "live2d":          { "name": "实时语音 Live2D",    "versions": [] }
+  }
+}
