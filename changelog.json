@@ -371,6 +371,17 @@
     },
     "LiveBotX":        { "name": "直播间智能互动助手", "versions": [
       {
+        "version": "v1.1.1",
+        "date": "2026-07-20",
+        "changes": {
+          "added": [
+            "添加弹幕批量下发功能，支持向多个实例手动发送弹幕"
+          ],
+          "improved": [],
+          "fixed": []
+        }
+      },
+      {
         "version": "v1.1.0",
         "date": "2026-06-02",
         "changes": {
